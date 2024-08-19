@@ -29,7 +29,7 @@ class _CustomPathsState extends State<CustomPaths> {
               child: Container(
                 height: size.height * .8,
                 width: size.width * .3,
-                decoration: BoxDecoration(
+                decoration: const BoxDecoration(
                     gradient: LinearGradient(
                         colors: [Colors.orange, Colors.deepOrangeAccent],
                         begin: Alignment.bottomLeft,
