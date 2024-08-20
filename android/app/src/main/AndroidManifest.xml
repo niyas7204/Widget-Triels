@@ -1,4 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <application
         android:label="widgettriels"
         android:name="${applicationName}"
@@ -30,6 +34,13 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+            <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+             <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyDTEKGMwz2hby0t7yTukfdvSnC6lDBb7WU"/>
+               
+ 
     </application>
     <!-- Required to query activities that can process text, see:
          https://developer.android.com/training/package-visibility and
